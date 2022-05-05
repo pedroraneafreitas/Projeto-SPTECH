@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 /* header*/
-body{
- padding: 0;
- margin: 0;
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
 }
 .header{
     height: 120px;
-
     width: 100%;
    display: flex;
    justify-content: space-between;
@@ -16,9 +15,7 @@ body{
 
 }
 .logo img{
-
     width: 25%;
-    
     margin-top: 0;
 }
 .navbar{
@@ -47,29 +44,58 @@ body{
 /*conteudo*/
 
 .container{
-    background-color: black;
     height: 500px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     justify-items: center;
-
+    align-items: center;
+    background-image: url();
 }
-
-.box_escolha{
-    border: 2px solid red;
-    width: 40%;
-    height: 60%;
-    background-image: url(biblioteca);
-}
-
-.box_escolha2{
-    border: 2px solid red;
-    width: 40%;
-    height: 60%;
-    background-image: url(Cantina);
-}
+ .box{
+     border-radius: 20px;
+     height: 70%;
+     width: 40%;
+     border:2px solid black;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     align-items: center;
+     color: black;
+     background-color: #d3d3d3;
+ }
+ .box h1{
+    padding-right:14% ;
+    color:#0000b8 ;
+    font-family:arial;
+    font-size: 50px;
+ }
+ .box span{
+     padding-right:34% ;
+     font-size: 30px;
+     font-weight: bold;
+     
+ }
+ 
+ .box input{
+     height: 8%;
+     width: 48%;
+     border: none;
+     border-radius: 5px;
+     box-shadow: none;
+     border: 1px solid blue;
+ }
+ .box button{
+     
+     background-color: #0000b8;
+     color: #FFFFFF;
+     border: 0;
+     border-radius: 5px;
+     font-size: large;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     width: 49%;
+     height: 40px;
+ }
 
 
 

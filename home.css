@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 /* header*/
-body{
+*{
  padding: 0;
  margin: 0;
 
 }
 .header{
-    height: 170px;
-
+    height: 120px;
     width: 100%;
    display: flex;
    justify-content: space-between;
@@ -17,8 +16,7 @@ body{
 }
 .logo img{
 
-    width: 35%;
-    
+    width: 25%;
     margin-top: 0;
 }
 .navbar{
@@ -49,7 +47,6 @@ body{
 .container{
     height: 500px;
     width: 100%;
-   
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -59,8 +56,8 @@ body{
  .box{
      border-radius: 20px;
      height: 60%;
-     width: 20%;
-     border:2px solid blue;
+     width: 40%;
+     border:2px solid black;
      display: flex;
      justify-content: space-evenly;
      flex-direction: column;
@@ -70,38 +67,41 @@ body{
  }
  .box h1{
     padding-right:14% ;
+    color:#0000b8 ;
+    font-family:arial;
+    font-size: 50px;
  }
  .box span{
      padding-right:14% ;
-     font-size: larger;
+     font-size: 30px;
      font-weight: bold;
      
  }
  .box input{
      height: 8%;
-     width: 55%;
+     width: 48%;
      border: none;
-     border-radius: 2px;
+     border-radius: 5px;
      box-shadow: none;
-     border: 1px solid black;
+     border: 1px solid blue;
  }
  .box button{
      
      background-color: #0000b8;
      color: #FFFFFF;
-     border: 1px solid black;
-     border-radius: 2px;
+     border: 0;
+     border-radius: 5px;
      font-size: large;
      font-family:Georgia, 'Times New Roman', Times, serif;
-     width: 58%;
- 
+     width: 49%;
+     height: 40px;
  }
 /* footer */
 
 .footer{
     background-color: #0000b8;
     color: #FFFFFF;
-    height: 170px;
+    height: 120px;
     width: 100%;
     display: flex;
     justify-content: center;
