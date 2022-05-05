@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* header*/
+body{
+ padding: 0;
+ margin: 0;
+
+}
+.header{
+    height: 170px;
+
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+  
+   background-color: #0000b8;
+
+}
+.logo img{
+
+    width: 35%;
+    
+    margin-top: 0;
+}
+.navbar{
+    width: 30%;
+    display: flex;
+}
+.menu{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0;
+
+}
+.lista{
+    font-family:monospace;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+}
+.lista a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/*conteudo*/
+
+.container{
+    height: 500px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-image: url();
+}
+ .box{
+     border-radius: 20px;
+     height: 60%;
+     width: 20%;
+     border:2px solid blue;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     align-items: center;
+     color: black;
+     background-color: #d3d3d3;
+ }
+ .box h1{
+    padding-right:14% ;
+ }
+ .box span{
+     padding-right:14% ;
+     font-size: larger;
+     font-weight: bold;
+     
+ }
+ .box input{
+     height: 8%;
+     width: 55%;
+     border: none;
+     border-radius: 2px;
+     box-shadow: none;
+     border: 1px solid black;
+ }
+ .box button{
+     
+     background-color: #0000b8;
+     color: #FFFFFF;
+     border: 1px solid black;
+     border-radius: 2px;
+     font-size: large;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     width: 58%;
+ 
+ }
+/* footer */
+
+.footer{
+    background-color: #0000b8;
+    color: #FFFFFF;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+
+.footer span{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family:'dancing script', cur sive ;
+
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* header*/
+body{
+ padding: 0;
+ margin: 0;
+
+}
+.header{
+    height: 170px;
+
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+  
+   background-color: #0000b8;
+
+}
+.logo img{
+
+    width: 35%;
+    
+    margin-top: 0;
+}
+.navbar{
+    width: 30%;
+    display: flex;
+}
+.menu{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0;
+
+}
+.lista{
+    font-family:monospace;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+}
+.lista a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/*conteudo*/
+
+.container{
+    height: 275px;
+    width: 100%;
+}
+
+
+
+
+/* footer */
+
+.footer{
+    background-color: #0000b8;
+    color: #FFFFFF;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+
+.footer span{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family:'dancing script', cur sive ;
+
+}
