@@ -1,120 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 /* header*/
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
-.header{
+
+.header {
     height: 120px;
     width: 100%;
-   display: flex;
-   justify-content: space-between;
-  
-   background-color: #0000b8;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #0000b8;
 
 }
-.logo img{
+
+.logo img {
     width: 25%;
     margin-top: 0;
 }
-.navbar{
+
+.navbar {
     width: 30%;
     display: flex;
 }
-.menu{
+
+.menu {
     width: 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     padding: 0;
 
 }
-.lista{
-    font-family:monospace;
+
+.lista {
+    font-family: monospace;
     font-size: 25px;
     font-weight: bold;
     list-style: none;
 }
-.lista a{
+
+.lista a {
     text-decoration: none;
     color: #FFFFFF;
 }
+
 /*conteudo*/
 
-.container{
-    height: 500px;
+.container {
+    height: 700px;
     width: 100%;
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    background-image: url();
+    background-image: url(../Projeto-SPTECH/imagens/background\ home.jpeg);
+    background-size: cover;
 }
- .box{
-     border-radius: 20px;
-     height: 70%;
-     width: 40%;
-     border:2px solid black;
-     display: flex;
-     justify-content: space-evenly;
-     flex-direction: column;
-     align-items: center;
-     color: black;
-     background-color: #d3d3d3;
- }
- .box h1{
-    padding-right:14% ;
-    color:#0000b8 ;
-    font-family:arial;
+
+.box {
+    border-radius: 20px;
+    height: 70%;
+    width: 40%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: #d3d3d3;
+}
+
+.box h1 {
+    padding-right: 14%;
+    color: #0000b8;
+    font-family: arial;
     font-size: 50px;
- }
- .box span{
-     padding-right:34% ;
-     font-size: 30px;
-     font-weight: bold;
-     
- }
- 
- .box input{
-     height: 8%;
-     width: 48%;
-     border: none;
-     border-radius: 5px;
-     box-shadow: none;
-     border: 1px solid blue;
- }
- .box button{
-     
-     background-color: #0000b8;
-     color: #FFFFFF;
-     border: 0;
-     border-radius: 5px;
-     font-size: large;
-     font-family:Georgia, 'Times New Roman', Times, serif;
-     width: 49%;
-     height: 40px;
- }
+}
+
+.box span {
+    padding-right: 34%;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.box input {
+    height: 8%;
+    width: 48%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid blue;
+}
+
+.box button {
+
+    background-color: #0000b8;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 49%;
+    height: 40px;
+}
 
 
 
 /* footer */
 
-.footer{
+.footer {
     background-color: #0000b8;
     color: #FFFFFF;
     height: 120px;
     width: 100%;
     display: flex;
     justify-content: center;
-   align-items: center;
-   
+    align-items: center;
+
 }
 
-.footer span{
+.footer span {
     font-weight: bolder;
     font-size: 30px;
-    font-family:'dancing script', cur sive ;
+    font-family: 'dancing script', cur sive;
 
 }

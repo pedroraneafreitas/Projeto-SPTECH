@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 /* header*/
-* {
+body {
     padding: 0;
     margin: 0;
 
@@ -12,6 +12,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
     background-color: #0000b8;
 
 }
@@ -51,60 +52,34 @@
 /*conteudo*/
 
 .container {
-    height: 805px;
-    width: 99%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center2;
-
-}
-
-.kpis {
-    
-    display: flex;
-    width: 99%;
-    height: 230px;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center;
-}
-
-.kpi1 {
-    background-image: url(../Projeto-SPTECH/imagens/KPI\ biblioteca.png);
+    background-image: url(../Projeto-SPTECH/imagens/refeitorio.jpeg);
     background-size: cover;
-    width: 27%;
-    height: 230px;
-}
-
-.kpi2 {
-    background-image: url(../Projeto-SPTECH/imagens/KPI\ biblioteca.png);
-    background-size: cover;
-    width: 27%;
-    height: 230px;
-}
-
-.dashboard {
+    height: 505px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: 230px;
-    width:90%;
-
 }
 
-.chart1 {
-  width: 20%;
-    
+.direito {
+    display: flex;
+    border: 2px solid black;
+    width: 20%;
+    height: 400px;
+    background-color: #ff6961;
+    justify-content: center;
+    align-items: center;
 }
-.chart2{
-   
-    height: 20vw;
+
+.esquerdo {
+    display: flex;
+    border: 2px solid black;
+    width: 20%;
+    height: 400px;
+    background-color: #90ee90;
+    justify-content: center;
+    align-items: center;
 }
-
-
-
-
 
 
 /* footer */
@@ -117,7 +92,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-self: baseline;
 
 }
 

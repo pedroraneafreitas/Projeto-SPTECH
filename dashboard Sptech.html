@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dashboard sptech.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Sptech</title>
-    <link rel="shortcut icon" href="imagem de preferencia" type="image/x-icon">
+    <link rel="shortcut icon" href="../Projeto-SPTECH/imagens/sptech_logo.png" type="image/x-icon">
 </head>
+
 <body>
-    
-  <!--header-->
-   <div class="header">
-         <div class="logo">
+
+    <!--header-->
+    <div class="header">
+        <div class="logo">
             <a href="Home.html">
                 <img src="../Projeto-SPTECH/imagens/sptech_logo.png" alt="">
             </a>
-         </div>
-         <div class="navbar">
-             <ul class="menu">
-                 <li class="lista"><a href=""> Entrar</a></li>
-                 <li class="lista"><a href=""> Sptech</a></li>
-                 <li class="lista"><a href=""> moodle</a></li>
-             </ul>
-         </div>
+        </div>
+        <div class="navbar">
+            <ul class="menu">
+                <li class="lista"><a href="#registro"> Entrar</a></li>
+                <li class="lista"><a href="https://www.sptech.school/"> Sptech</a></li>
+                <li class="lista"><a href="https://moodle.sptech.school/login/index.php"> moodle</a></li>
+            </ul>
+        </div>
 
     </div>
-     <!--conteudo-->
-
-     
-    <div class="container"></div>
+    <!--conteudo-->
 
 
+    <div class="container">
+        <div class="kpis">
+            <div class="kpi1"></div>
+            <div class="kpi2"></div>
+        </div>
 
 
-     <!--footer-->
+        <div class="dashboard">
+            <canvas id="myChart" class="chart1"></canvas>
+
+
+            <canvas id="myChart1" class="chart2"></canvas>
+        </div>
+    </div>
+
+
+
+
+    <!--footer-->
     <div class="footer">
 
 
         <span>Feito com amor por um aluno do ADS A. 💗</span>
-       
 
-   </div>
+
+    </div>
 
 
 
@@ -51,8 +67,112 @@
 
 
 </body>
-</html>
+<script>
+    const labels = [
+        '08:00',
+        '09:00',
+        '10:00',
+        '11:00',
+        '12:00',
+        '13:00',
+    ];
+
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Média de pessoas por hora',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [02, 05, 03, 15, 40, 32],
+        },
+
+
+
+        ]
+
+
+    };
+
+
+
+    const config = {
+        type: 'line',
+        data: data,
+        options: {}
+    };
+
+
+
+
+
+</script>
+
+
+<script>
+    const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+
+
+</script>
+
+
+
+
+
+
+<script>
+    const labels1 = [
+        'janeiro',
+        'fevereiro',
+        'março',
+        'abril',
+        'maio',
+        'junho',
+    ];
+
+    const data1 = {
+        labels: labels1,
+        datasets: [{
+            label: 'Tempo médio por dia.',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [1, 3, 1, 4, 6, 2],
+        },
+
+
+        ]
+
+
+    };
+
+
+
+    const config1 = {
+        type: 'bar',
+        data: data1,
+        options: {}
+    };
+
+
+
+
+
+</script>
+
 <script>
 
-  // DashBoard
+
+    const myChart1 = new Chart(
+        document.getElementById('myChart1'),
+        config1
+    );
 </script>
+
+
+
+
+
+
+</html>

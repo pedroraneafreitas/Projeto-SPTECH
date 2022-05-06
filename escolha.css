@@ -1,53 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 /* header*/
-body{
- padding: 0;
- margin: 0;
+body {
+    padding: 0;
+    margin: 0;
 
 }
-.header{
+
+.header {
     height: 120px;
-
     width: 100%;
-   display: flex;
-   justify-content: space-between;
-  
-   background-color: #0000b8;
-
+    display: flex;
+    justify-content: space-between;
+    background-color: #0000b8;
 }
-.logo img{
 
+.logo img {
     width: 25%;
-    
     margin-top: 0;
 }
-.navbar{
+
+.navbar {
     width: 30%;
     display: flex;
 }
-.menu{
+
+.menu {
     width: 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     padding: 0;
 
 }
-.lista{
-    font-family:monospace;
+
+.lista {
+    font-family: monospace;
     font-size: 25px;
     font-weight: bold;
     list-style: none;
 }
-.lista a{
+
+.lista a {
     text-decoration: none;
     color: #FFFFFF;
 }
+
 /*conteudo*/
 
-.container{
-    background-color: black;
+.container {
+    background-color: #00ced1;
     height: 500px;
     width: 100%;
     display: flex;
@@ -57,38 +60,61 @@ body{
 
 }
 
-.box_escolha{
-    border: 2px solid red;
+.box_escolha {
+    display: flex;
+    border: 2px solid black;
     width: 40%;
     height: 60%;
-    background-image: url(biblioteca);
+    background-image: url(../Projeto-SPTECH/imagens/biblioteca.jpeg);
+    background-size: cover;
 }
 
-.box_escolha2{
-    border: 2px solid red;
+.box_escolha button {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.box_escolha button:hover {
+    background-color: red;
+}
+
+
+.box_escolha2 {
+    border: 2px solid black;
     width: 40%;
     height: 60%;
-    background-image: url(Cantina);
+    background-image: url(../Projeto-SPTECH/imagens/refeitorio.jpeg);
+    background-size: cover;
+
+}
+
+.box_escolha2 button {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
 }
 
 
 
 /* footer */
 
-.footer{
+.footer {
     background-color: #0000b8;
     color: #FFFFFF;
     height: 120px;
     width: 100%;
     display: flex;
     justify-content: center;
-   align-items: center;
-   
+    align-items: center;
+
 }
 
-.footer span{
+.footer span {
     font-weight: bolder;
     font-size: 30px;
-    font-family:'dancing script', cur sive ;
+    font-family: 'dancing script', cur sive;
 
 }

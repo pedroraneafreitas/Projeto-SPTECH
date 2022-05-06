@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <title>Sptech</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <title>Sptech</title>
+  <link rel="shortcut icon" href="../Projeto-SPTECH/imagens/sptech_logo.png" type="image/x-icon">
 </head>
+
 <body>
-    
+
   <!--header-->
-   <div class="header">
-         <div class="logo">
-            <a href="Home.html">
-                <img src="../Projeto-SPTECH/imagens/sptech_logo.png" alt="">
-            </a>
-         </div>
-         <div class="navbar">
-             <ul class="menu">
-                 <li class="lista"><a href=""> Entrar</a></li>
-                 <li class="lista"><a href=""> Sptech</a></li>
-                 <li class="lista"><a href=""> moodle</a></li>
-             </ul>
-         </div>
-
+  <div class="header">
+    <div class="logo">
+      <a href="Home.html">
+        <img src="../Projeto-SPTECH/imagens/sptech_logo.png" alt="">
+      </a>
     </div>
-     <!--conteudo-->
+    <div class="navbar">
+      <ul class="menu">
+        <li class="lista"><a href="#registro"> Entrar</a></li>
+        <li class="lista"><a href="https://www.sptech.school/"> Sptech</a></li>
+        <li class="lista"><a href="https://moodle.sptech.school/login/index.php"> moodle</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <!--conteudo-->
 
 
-    <div class="container">
+  <div class="container">
 
-        
-             <div class="box">
-              <h1> Registro </h1>
-             <span> Digite seu R.A</span>
-            <input id="input_RA">
-            <button>Entrar</button>
-             </div>
-         
 
+    <div class="box" id="registro">
+      <h1> Registro </h1>
+      <span> Digite seu R.A</span>
+      <input id="input_RA">
+      <button onclick="entrar()">Entrar</button>
     </div>
 
 
+  </div>
 
 
-     <!--footer-->
-    <div class="footer">
 
 
-        <span>Feito com amor por um aluno do ADS A.💗 </span>
-       
+  <!--footer-->
+  <div class="footer">
 
-   </div>
+
+    <span>Feito com amor por um aluno do ADS A.💗 </span>
+
+
+  </div>
 
 
 
@@ -61,4 +64,11 @@
 
 
 </body>
+
 </html>
+<script>
+  function entrar() {
+
+    window.location = "escolha.html"
+  }
+</script>
